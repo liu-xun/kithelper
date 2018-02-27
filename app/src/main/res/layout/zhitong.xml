@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="305dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="止痛药种类多主要有以下几类："
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一类为非甾体抗炎止痛药。常用的有阿司匹林、布洛芬、消炎痛、扑热息痛、保泰松、罗非昔布、塞来昔布等。止痛作用比较弱，没有成瘾性，使用广泛、疗效确切，用于一般常见的疼痛，但如果使用不当，也会对人体健康造成损害。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="什么情况下使用什么样的止痛药，是很“讲究”的。常见的颈肩腰腿痛应该首选非甾体抗炎镇痛药物，如芬必得、扶他林等；发热伴有头痛或牙痛等，可选用解热止痛药，如阿司匹林、消炎痛等。对于有严重胃肠道疾病的患者，可选用对胃肠道少刺激的非甾体类药物，只有在非甾体类药物使用无效时才考虑使用中枢止痛药。以上这些人不能选用阿片类止痛药的。晚期癌症病人止痛应遵循阶梯治疗的原则，从非甾体类药物到中枢止痛药，最后才选用阿片类药物。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三类是麻醉性止痛药。以吗啡、杜冷丁等阿片类药为代表。这类药物止痛作用很强，但长期使用会成瘾。这类药物有严格的管理制度，不能随便使用，主要用于晚期癌症病人。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第二类是中枢性止痛药。以曲马多为代表，是人工合成的中枢性止痛药，属于二类精神药品，为非麻醉性止痛药。曲马多的止痛作用比一般的解热止痛药要强，但又不及麻醉止痛药，其止痛效果是吗啡的1/10。主要用于中等程度的各种急性疼痛及手术后疼痛等。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="145dp" />
+</LinearLayout>

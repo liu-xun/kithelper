@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="降温"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="补充液体"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="①果菜汁②草茶③菩提花茶④柳树皮⑤黑接骨木⑥冰"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湿敷"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="湿敷帮助降低体温。热的湿敷可退烧。但是当病人觉得热得很不舒服时，应以冷湿敷取代。在额头、手腕、小腿上各放一湿冷毛巾，其他部位应以衣物盖住。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="泡澡"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="182dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="婴儿应以室温的温水池澡，另一种方式则是以湿毛巾包住婴儿，每15分钟换一次。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="勿忍痛"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你若感到非常不舒服，可服用止痛药。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="穿衣适量"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用常识来判断穿衣服的多寡。如果你很热，则脱下过多的衣物，使体内的热气可以散发出来。但假使你打寒颤，应以衣物裹身，直到不冷为止。特别注意小婴儿，因为当他们感到过热时，并不懂得卸下衣物。其实，给小孩穿过多衣服或把他们置于酷热的场所，都可能引起发烧。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调节室内温度"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="以利病人复原。勿使室温过高，勿超过18．3C。同时，应让室内适度地透气，以帮助复原"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="想吃就吃"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发烧期间，无需苦恼该吃什么或不该吃什么。有些医师偏好禁食(只喝果汁)，直到烧退为止。有些医师则认为应该吃些东西才好，因为身体发烧时，会消耗热量。总之，选择还是在你，想吃什么就吃什么。只是别忘了补充足够的水分。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="469dp" />
+</LinearLayout>

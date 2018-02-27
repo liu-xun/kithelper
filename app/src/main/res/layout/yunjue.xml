@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="如果患者出现面色苍白或青灰，频频打哈欠，面部，颈部和双手冒汗，这都是脑部缺氧的前兆。"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="若有人诉说快要晕厥，应叫她/他坐下，松开颈部和腰部的衣物，皮带，并使其头部垂到膝上。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="患者如已经晕厥，应抬起患者双脚，使脚部高于头部，以加速其脑部血液循环。患者通常会很快恢复意识，但是需要检查在跌倒时身上或是头部有无受伤。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="患者完全清醒后，才可以给其饮食，而且只能先让其喝一些温水，切勿给患者服用烈酒之类刺激的饮料，因为酒精中的成分可以减慢患者身体活动的机能。 "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="如果患者清醒之后的言语不同于常人，表现出了异样的行为，应该立即将其送往医院，进行治疗。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="180dp" />
+</LinearLayout>

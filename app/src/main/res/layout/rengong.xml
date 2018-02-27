@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="昏迷患者或心跳停止患者在排除气道异物，采用徒手方法使呼吸道畅通后，如无自主呼吸，应立即予以人工呼吸，以保证不间断地向患者供氧，防止重要器官因缺氧造成不可逆性损伤。正常空气中氧浓度约为21%，经呼吸吸入肺后人体大约可利用3%～5%，也就是说，呼出气中仍含有16%～18%的氧浓度，只要我们在进行人工呼吸时给患者的气量稍大于正常，使氧含量的绝对值并不少于自主呼吸，这样就完全可以保证身体重要器官的氧供应，不至于由于缺氧而导致重要生命器官的损害。"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="口对口呼吸"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="根据患者的病情选择打开气道的方法，患者取仰卧位，抢救者一手放在患者前额，并用拇指和食指捏住患者的鼻孔，另一手握住颏部使头尽量后仰，保持气道开放状态，然后深吸一口气，张开口以封闭患者的嘴周围（婴幼儿可连同鼻一块包住），向患者口内连续吹气2次，每次吹气时间为1～1.5秒，吹气量1000毫升左右，直到胸廓抬起，停止吹气，松开贴紧患者的嘴，并放松捏住鼻孔的手，将脸转向一旁，用耳听有否气流呼出，再深吸一口新鲜空气为第二次吹气做准备，当患者呼气完毕，即开始下一次同样的吹气。如患者仍未恢复自主呼吸，则要进行持续吹气，成人吹气频率为12次/分钟，儿童15次/分钟，婴儿20次/分钟，但是要注意，吹气时吹气容量相对于吹气频率更为重要，开始的两次吹气，每次要持续1～2秒钟，让气体完全排出后再重新吹气，一分钟内检查颈动脉搏动及瞳孔、皮肤颜色，直至患者恢复复苏成功，或死亡，或准备好做气管插管。"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="口对鼻呼吸"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当患者有口腔外伤或其他原因致口腔不能打开时，可采用口对鼻吹气，其操作方法是：首先开放患者气道，头后仰，用手托住患者下颌使其口闭住。深吸一口气，用口包住患者鼻部，用力向患者鼻孔内吹气，直到胸部抬起，吹气后将患者口部张开，让气体呼出。如吹气有效，则可见到患者的胸部随吹气而起伏，并能感觉到气流呼出。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+</LinearLayout>

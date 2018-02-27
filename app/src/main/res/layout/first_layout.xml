@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapecircle"
+        android:text="通过闹钟设置吃药" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapecircle"
+        android:text="网页查询" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapecircle"
+        android:text="急救" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapecircle"
+        android:text="就近药店" />
+    <Button
+        android:id="@+id/button888"
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapecircle"
+        android:text="医药常识合集" />
+</LinearLayout>

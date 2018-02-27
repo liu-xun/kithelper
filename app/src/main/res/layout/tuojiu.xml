@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="所需医疗器具"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="活血化瘀的药物。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="冷敷袋。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="一、手臂脱臼时最好立刻前往医院进行检查并复位。在发觉手臂脱臼并异常疼痛时，最好不要尝试自己矫正手臂，否则可能会出现关节接错的状况，应尽量保持手臂不动，然后尽快前往医院进行骨关节复位。若是十分严重可能还会需要通过激光手术来复位，若不是很严重，只需找一个骨科医生手动来帮助手臂复位即可。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二、若是被外界因素所迫，无法及时找到大夫或前往医院进行治疗的话，可以尝试一次自己将手臂复位。若是在发现自己手臂脱臼，却无法及时联系到相关医护人员帮助治疗的话，可以尝试一次自己来手动复位。需先将肌肉放松，然后用膝盖抵住腋下稳定手臂，再用另一只手握住手臂慢慢内旋，牵引手臂恢复到原来位置，听到关节部位“咔”地一声响，随即疼痛缓解，便说明手臂已经复位。需要注意的是，最好在复位后有机会便前往医院进行一次检查为好，避免留下隐患。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="三、在手臂脱臼复位后，可以采取冷敷的方式来缓解关节错位处的肿胀。在脱臼的手臂进行过恰当的处理后，可以利用一些医用的冷敷用品为患处冷敷，这样可缓解伤处胀痛并消肿，不过需要注意的是，在进行一天一夜的冷敷后，需采用热敷的方式来促进伤处血液循环，热敷时间也只需一天也就是24小时即可。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="四、复位后若有肌肉拉伤的状况，可以适当服用一些药物或外敷药膏治疗。在手臂脱臼并进行复位后，若发现手臂虽然可以活动伸展，但活动时却还是很疼痛，那么可能是因为手臂的肌肉拉伤了，那么需要在经过医生检查后，适当服用一些活血化瘀的药物，例如布洛芬或阿司匹林胶囊等、或在痛处涂抹一些外敷用的药膏，例如云南白药等。若疼痛较为严重，也可少量服用一些止痛片。"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="425dp" />
+</LinearLayout>
