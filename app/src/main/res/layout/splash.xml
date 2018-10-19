@@ -11,7 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="               欢迎来到Kit Helper"
-        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:text="欢迎来到Kit Helper"
+        android:textSize="80dp"
         android:textColor="#ff5e9cff"/>
 </LinearLayout>

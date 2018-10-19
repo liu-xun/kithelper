@@ -81,6 +81,8 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.contrarywind/Android-PickerView/4.1.6/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.contrarywind/wheelview/4.0.8/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
@@ -100,6 +102,8 @@
     <orderEntry type="library" exported="" name="com.android.support:support-annotations:22.2.1@jar" level="project" />
     <orderEntry type="library" exported="" name="__local_aars__:C.\Users\ASUS\Desktop\kit helper\kithelper\app\libs\BaiduLBS_Android.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-v4-22.2.1" level="project" />
+    <orderEntry type="library" exported="" name="com.contrarywind:Android-PickerView-4.1.6" level="project" />
+    <orderEntry type="library" exported="" name="com.contrarywind:wheelview-4.0.8" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:appcompat-v7-22.2.1" level="project" />
     <orderEntry type="library" exported="" name="android-android-26" level="project" />
   </component>

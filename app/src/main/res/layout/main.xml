@@ -4,42 +4,42 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
     <Button
-        android:id="@+id/button_1"
+        android:id="@+id/button_1_main"
         android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:background="@drawable/shapecircle"
         android:text="通过闹钟设置吃药" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_main"
         android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:background="@drawable/shapecircle"
         android:text="网页查询" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button4_main"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:background="@drawable/shapecircle"
         android:text="急救" />
 
     <Button
-        android:id="@+id/t1"
+        android:id="@+id/t1_main"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:background="@drawable/shapecircle"
         android:text="Button" />
 
     <Button
-        android:id="@+id/button74"
+        android:id="@+id/button74_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/shapecircle"
         android:text="Button" />
 
     <TextView
-        android:id="@+id/text_Info"
+        android:id="@+id/text_Info_main"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp" >

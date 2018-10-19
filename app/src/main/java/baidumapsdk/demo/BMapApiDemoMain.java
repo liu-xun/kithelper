@@ -119,22 +119,22 @@ public class BMapApiDemoMain extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.first_layout);
         TextView text = (TextView) findViewById(R.id.text_Info);
         text.setTextColor(Color.YELLOW);
         text.setText("欢迎使用Kit Helper Android SDK v" + VersionInfo.getApiVersion());
         setTitle(getTitle() + " v" + VersionInfo.getApiVersion());
         // 添加ListItem，设置事件响应
-        Button button2=(Button) findViewById(R.id.button);
+        Button button2=(Button) findViewById(R.id.button);//网页查询
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent1 =new Intent(Intent.ACTION_VIEW);
-                intent1.setData(Uri.parse("http://www.baidu.com"));
+                intent1.setData(Uri.parse("http://app2.sfda.gov.cn/datasearchp/gzcxSearch.do?searchcx=%E8%8D%AF%E5%93%81%E6%9F%A5%E8%AF%A2&optionType=V1&formRender=cx"));
                 startActivity(intent1);
             }
         });
-        Button buttonCall = (Button)findViewById(R.id.button4);
+        Button buttonCall = (Button)findViewById(R.id.button4);//急救电话
         buttonCall.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -143,7 +143,7 @@ public class BMapApiDemoMain extends Activity {
                 startActivity(call);
             }
         });
-        Button buttonTime = (Button)findViewById(R.id.button74);
+        Button buttonTime = (Button)findViewById(R.id.button74);//医药常识合集
         buttonTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -151,17 +151,15 @@ public class BMapApiDemoMain extends Activity {
                 startActivity(intent2);
             }
         });
-        Button map=(Button)findViewById(R.id.t1);
+        Button map=(Button)findViewById(R.id.t1);//附近药店
         map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intentmap=new Intent(BMapApiDemoMain.this,PoiSearchDemo.class);
                 startActivity(intentmap);
             }
-        }
+        });
 
-
-        );
 
         // 注册 SDK 广播监听者
         IntentFilter iFilter = new IntentFilter();
@@ -176,6 +174,15 @@ public class BMapApiDemoMain extends Activity {
         //begin scan installed applications;
         //// TODO: 16/1/15
         new Thread(new ScanInstalledAppsRunnable()).start();
+
+
+        new Handler().postDelayed(new Runnable() {
+            public void run() {
+                Intent intent = new Intent(BMapApiDemoMain.this,tixing.class);
+                startActivity(intent);
+
+            }
+        }, 1000 * 8);//wait_time_to_start_tixing
     }
     private void initViews() {
         startSystemClockButton = (Button) findViewById(R.id.button_1);
@@ -183,7 +190,10 @@ public class BMapApiDemoMain extends Activity {
             @Override
             public void onClick(View v) {
                 //// TODO: 16/1/15
-                startSystemClock();
+                //startSystemClock();
+//                Intent intent = new Intent(BMapApiDemoMain.this,med_information.class);//添加药品信息
+                Intent intent = new Intent(BMapApiDemoMain.this,tixing.class);
+                startActivity(intent);
             }
         });
     } private void initData() {

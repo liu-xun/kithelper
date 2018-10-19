@@ -89,7 +89,7 @@ public class FirstActivity extends AppCompatActivity {
                 startActivity(intent2);
             }
         });*/
-        Button map=(Button)findViewById(R.id.button5);
+        Button map=(Button)findViewById(R.id.t1);
         map.setOnClickListener(new View.OnClickListener() {
                                    @Override
                                    public void onClick(View view) {

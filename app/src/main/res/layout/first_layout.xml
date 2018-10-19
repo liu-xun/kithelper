@@ -1,39 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_floating_material_light"
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button_1"
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/shapecircle"
-        android:text="通过闹钟设置吃药" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/shapecircle"
-        android:text="网页查询" />
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="105dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/shapecircle"
+            android:text="添加药品信息"
+            android:textColor="#000000"
+            android:textSize="50sp" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="128dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/shapecircle"
-        android:text="急救" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="105dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/shapecircle"
+            android:textSize="50sp"
+            android:textColor="#000000"
+            android:text="网页查询" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="126dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/shapecircle"
-        android:text="就近药店" />
-    <Button
-        android:id="@+id/button888"
-        android:layout_width="126dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/shapecircle"
-        android:text="医药常识合集" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="105dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/shapecircle"
+            android:textSize="50sp"
+            android:textColor="#000000"
+            android:text="急救电话" />
+
+        <Button
+            android:id="@+id/t1"
+            android:layout_width="105dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/shapecircle"
+            android:textSize="50sp"
+            android:textColor="#000000"
+            android:text="附近药店" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button74"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/shapecircle"
+            android:textSize="50sp"
+            android:textColor="#000000"
+            android:text="医药常识合集" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_Info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="top"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/button_sz"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:background="@drawable/shapecircle"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="···" />
+
+    </LinearLayout>
+
 </LinearLayout>

@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+
     <EditText
         android:id="@+id/editText5"
         android:layout_width="wrap_content"
@@ -20,6 +26,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="真正的窒息在现实生活中很少发生，喝水呛到或是被食物噎到一般都不算是窒息。窒息发生时，患者不会有强烈的咳嗽，不能说话或是呼吸，脸会短时间内变成红色或青紫色。"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="120dp" />
@@ -28,6 +35,7 @@
         android:id="@+id/textView23"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="急救办法：首先要迅速叫救护车。在等待救护车的同时，需要采取以下措施：让患者身体前倾，用手掌用力拍患者后背两肩中间的位置。如果不奏效，那么需要站在患者身后，用拳头抵住患者的腹背部，用另一只手握住那个拳头，上下用力推进推出五次，帮助患者呼吸。患者也可以采取这样的自救措施：将自己的腹部抵在一个硬质的物体上，比如厨房台面，然后用力挤压腹部，让卡在喉咙里的东西弹出来。"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="200dp" />
@@ -35,7 +43,8 @@
     <TextView
         android:id="@+id/textView28"
         android:layout_width="wrap_content"
-        android:layout_height="22dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="绝对禁止：不要给正在咳嗽的患者喂水或是其他食物。"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="341dp" />
@@ -44,6 +53,7 @@
         android:id="@+id/textView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="亮警报：只要窒息发生，都需要迅速叫救护车抢救患者。"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="401dp" />

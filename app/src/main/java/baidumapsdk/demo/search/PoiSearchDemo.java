@@ -65,10 +65,15 @@ public class PoiSearchDemo extends FragmentActivity implements
     private ArrayAdapter<String> sugAdapter = null;
     private int loadIndex = 0;
 
-    LatLng center = new LatLng(39.92235, 116.380338);
-    int radius = 100;
+    //LatLng center = new LatLng(39.92235, 116.380338);//天安门
+    LatLng center = new LatLng(45.749416, 126.637339);//hit正心
+    int radius = 1000;
+    /*
     LatLng southwest = new LatLng( 39.92235, 116.380338 );
     LatLng northeast = new LatLng( 39.947246, 116.414977);
+    */
+    LatLng southwest = new LatLng( 45.742405, 126.621163);
+    LatLng northeast = new LatLng( 45.753072, 126.651634);
     LatLngBounds searchbound = new LatLngBounds.Builder().include(southwest).include(northeast).build();
 
     int searchType = 0;  // 搜索的类型，在显示时区分

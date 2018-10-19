@@ -38,12 +38,21 @@ import baidumapsdk.demo.R;
  */
 public class OpenBaiduMap extends Activity {
 
+
+
+    // hit正心楼坐标
+    double mLat1 = 45.749416;
+    double mLon1 = 126.637339;/*
     // 天安门坐标
     double mLat1 = 39.915291;
     double mLon1 = 116.403857;
+    */
     // 百度大厦坐标
     double mLat2 = 40.056858;
     double mLon2 = 116.308194;
+
+//    double mLat_zx = 45.749416;
+//    double mLon_zx = 126.637339;
     private RadioGroup.OnCheckedChangeListener radioButtonListener;
     private CoordType mCoordType;
 

@@ -38,6 +38,7 @@ public class FruitAdapter extends  ArrayAdapter<Fruit> {
             viewHolder = (ViewHolder) view.getTag(); // 重新获取
         }
         viewHolder.fruitName.setText(fruit.getName());
+        viewHolder.fruitName.setTextSize(40);
         return view;
     }
     class ViewHolder {

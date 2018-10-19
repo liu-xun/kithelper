@@ -6,10 +6,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+
     <TextView
         android:id="@+id/textView50"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="改善脑部血循环 增加脑血流量，促进侧支循环建立，以图缩小梗塞面积。最重要的还是要到正规医院接受系统治疗，按时服药，对症治疗，控制好高血脂、高血压、血压病等动脉硬化的基础病变，可适当服用常见的抗血小板聚集类药物及脑保护营养药物。建议药物治疗外配合生物提取的多肽地龙，减轻药物伤害，改善微循环，从而改善脑梗塞症状。"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="46dp" />
@@ -28,6 +35,7 @@
         android:id="@+id/textView51"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="应进行适当适量的体育锻炼及体力活动，不宜做剧烈运动，跑步、登山均不可取，可进行散步、柔软体操、打太极拳等有氧运动。但应根据个人的身体情况选择，不可过量以不过度疲劳为度。适当的体育锻炼可增加脂肪消耗、减少体内胆固醇沉积，提高胰岛素敏感性，对预防肥胖、控制体重、增加循环功能、调整血脂和降低血压、减少血栓均有益处，是防治脑梗塞（脑梗塞、脑栓塞）的积极措施。 "
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="147dp" />
@@ -36,6 +44,7 @@
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="适量增加蛋白质。由于膳食中的脂肪量下降，就要适当增加蛋白质。可由瘦肉，去皮禽类提 供，可多食鱼类，特别是海鱼，每日要吃一定量的豆制品，如豆腐，豆干，对降低 血液胆固醇及血液粘滞 有利。"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="265dp" />
